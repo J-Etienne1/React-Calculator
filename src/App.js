@@ -1,10 +1,12 @@
+import "./index.css"
+
 
 function App() {
   return (
     <div className="calculator-grid">
       <div className="output">
-        <div className="previous-operand"></div>
-        <div className="current-operand"></div>
+        <div className="previous-operand">1,234,1546</div>
+        <div className="current-operand">1,234,1546</div>
       </div>
       <button className="span-two">AC</button>
       <button>DEL</button>
